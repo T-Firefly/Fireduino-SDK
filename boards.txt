@@ -1,0 +1,23 @@
+fireduino.name=Fireduino
+fireduino.vid.0=0x2341
+fireduino.pid.0=0x003e
+
+fireduino.upload.tool=rknanouploader
+fireduino.upload.protocol=script
+fireduino.upload.maximum_size=524288
+fireduino.upload.use_1200bps_touch=true
+fireduino.upload.wait_for_upload_port=false
+fireduino.upload.native_usb=false
+
+fireduino.build.usb_product="Fireduino"
+fireduino.build.mcu=cortex-m3
+fireduino.build.f_cpu=84000000L
+fireduino.build.board=FIREDUINO
+fireduino.build.core=arduino
+fireduino.build.ldscript=linker_scripts/gcc/flash.ld
+fireduino.build.variant=fireduino
+fireduino.build.variant_system_lib=libfireduino_gcc_rel.a
+#fireduino.build.extra_flags=-D__FIREDUINO__ {build.usb_flags}
+fireduino.build.extra_flags=
+fireduino.build.vid=0x2341
+fireduino.build.pid=0x003e
